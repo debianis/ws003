@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open + Sans:400);
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.center {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+.row{
+  display: inline;
+}
+#socialbar {
+  display: inline;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 60px;
+  .social {
+    padding-left: 0px;
+  }
+  li {
+    display: inline-block;
+  }
+  li a {
+    border-radius: 6px;
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    padding: 5%;
+    border: 1px solid rgba(256, 256, 256, 0.6);
+    cursor: pointer;
+    transition: ease 0.3s;
+    &:hover {
+      color: black;
+      border: 1px solid black;
+    }
+  }
+}
+
+#text123 p{
+text-align: center;
+}
+
+.h3{
+    font-size: auto;
+}
+.img-fluid{
+  max-height: 700px;
+}
+
+.social:hover > li {
+  opacity: 0.5;
+}
+
+.social:hover > li:hover {
+  opacity: 1;
+}
+.credits,
+.credits a {
+  font-size: 17px;
+  font-family: Open Sans;
+  color: black;
+  position: absolute;
+  left: 0;
+  bottom: -200px;
+  padding: 10px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+i:hover{
+        color: rgba(242, 100, 168, 1);
+}
+
+.fa-facebook {
+  color: black;
+}
+.fa-instagram {
+  color: black;
+}
