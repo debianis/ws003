@@ -62,7 +62,7 @@ font-size: 28px;
 @media only screen and (max-width: 600px) {
   .credits,
   .credits a{
-    font-size: 17px;
+    font-size: 15px;
     color: black;
     position: absolute;
     left: 0;
@@ -89,7 +89,7 @@ font-size: 28px;
 
   #text123 p{
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   }
 
 }
