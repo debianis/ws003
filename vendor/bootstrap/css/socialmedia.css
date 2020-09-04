@@ -27,7 +27,6 @@ a{
   border-radius: 20px;
 }
 
-
 #text123 p{
 text-align: center;
 font-size: 28px;
@@ -36,6 +35,7 @@ font-size: 28px;
 .h3{
     font-size: auto;
 }
+
 .img-fluid{
   max-height: 650px;
 }
@@ -71,6 +71,7 @@ font-size: 28px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
   }
+
   #socialbar {
     display: inline;
     vertical-align: middle;
@@ -91,7 +92,6 @@ font-size: 28px;
   text-align: center;
   font-size: 18px;
   }
-
 }
 
 i:hover{
