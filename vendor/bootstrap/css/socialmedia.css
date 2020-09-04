@@ -30,6 +30,7 @@ a{
 
 #text123 p{
 text-align: center;
+font-size: 28px;
 }
 
 .h3{
@@ -65,7 +66,7 @@ text-align: center;
     color: black;
     position: absolute;
     left: 0;
-    bottom: -300px;
+    bottom: -330px;
     padding: 10px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
@@ -78,13 +79,19 @@ text-align: center;
     color: black;
     position: absolute;
     left: 0;
-    bottom: -175px;
+    bottom: -300px;
     padding: 30px;
     width: 100%;
     .social {
       padding-left: 0px;
     }
   }
+
+  #text123 p{
+  text-align: center;
+  font-size: 15px;
+  }
+
 }
 
 i:hover{
